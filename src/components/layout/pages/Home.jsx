@@ -1,10 +1,12 @@
 import React from 'react'
-import UserResults from './UserResults'
+import UserResults from './user/UserResults'
+import UserSearch from '../../users/UserSearch'
 
 function Home() {
   return (
     <>
-    <UserResults />
+      <UserSearch />
+      <UserResults />
     </>
   )
 }
